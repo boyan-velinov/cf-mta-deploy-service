@@ -139,7 +139,7 @@ public class StepsUtil {
         return userId;
     }
 
-    static String getModuleFileName(DelegateExecution context, String moduleName) {
+    public static String getModuleFileName(DelegateExecution context, String moduleName) {
         return (String) context.getVariable(getModuleFileNameVariable(moduleName));
     }
 
@@ -770,7 +770,7 @@ public class StepsUtil {
     static CloudApplicationExtended getApp(DelegateExecution context) {
         return JsonUtil.fromJson((String) context.getVariable(Constants.VAR_APP_TO_DEPLOY), CloudApplicationExtended.class);
     }
-    
+
     static void setApp(DelegateExecution context, CloudApplicationExtended app) {
         context.setVariable(Constants.VAR_APP_TO_DEPLOY, JsonUtil.toJson(app));
     }
