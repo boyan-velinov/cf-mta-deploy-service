@@ -23,6 +23,7 @@ import com.sap.cloud.lm.sl.cf.core.cf.PlatformType;
 import com.sap.cloud.lm.sl.cf.core.cf.clients.ServiceBrokerCreator;
 import com.sap.cloud.lm.sl.cf.core.cf.clients.ServiceBrokersGetter;
 import com.sap.cloud.lm.sl.cf.core.helpers.ApplicationAttributes;
+import com.sap.cloud.lm.sl.cf.core.helpers.ModuleToDeployHelper;
 import com.sap.cloud.lm.sl.cf.core.model.SupportedParameters;
 import com.sap.cloud.lm.sl.cf.core.security.serialization.SecureSerializationFacade;
 import com.sap.cloud.lm.sl.cf.core.util.ApplicationConfiguration;
@@ -42,6 +43,8 @@ public class CreateOrUpdateServiceBrokersStep extends SyncFlowableStep {
     private SecureSerializationFacade secureSerializer = new SecureSerializationFacade();
     @Inject
     private ApplicationConfiguration configuration;
+    @Inject
+    private ModuleToDeployHelper moduleToDeployHelper;
 
     @Override
     protected StepPhase executeStep(ExecutionWrapper execution) {
@@ -79,9 +82,9 @@ public class CreateOrUpdateServiceBrokersStep extends SyncFlowableStep {
 
     private List<CloudApplication> mapApplicationsFromContextToCloudApplications(ExecutionWrapper execution,
         CloudControllerClient client) {
-        return StepsUtil.getAppsToDeploy(execution.getContext())
+        return StepsUtil.getAppsToDeploy(execution.getContext(), moduleToDeployHelper)
             .stream()
-            .map(app -> client.getApplication(app.getName()))
+            .map(appName -> client.getApplication(appName))
             .collect(Collectors.toList());
     }
 

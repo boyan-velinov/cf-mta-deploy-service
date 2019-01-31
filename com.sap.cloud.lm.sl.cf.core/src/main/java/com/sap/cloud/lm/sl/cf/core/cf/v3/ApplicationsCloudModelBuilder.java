@@ -48,7 +48,7 @@ public class ApplicationsCloudModelBuilder extends com.sap.cloud.lm.sl.cf.core.c
     }
 
     @Override
-    protected List<String> getAllApplicationServices(com.sap.cloud.lm.sl.mta.model.v2.Module module) {
+    public List<String> getAllApplicationServices(com.sap.cloud.lm.sl.mta.model.v2.Module module) {
         return getApplicationServices((Module) module, this::onlyActiveServicesRule);
     }
 

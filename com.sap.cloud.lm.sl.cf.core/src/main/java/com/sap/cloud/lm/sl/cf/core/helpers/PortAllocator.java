@@ -1,19 +1,20 @@
 package com.sap.cloud.lm.sl.cf.core.helpers;
 
+import java.util.Map;
 import java.util.Set;
 
 public interface PortAllocator {
 
-    int allocatePort();
+    int allocatePort(String groupId);
 
-    int allocateTcpPort(boolean tcps);
+    int allocateTcpPort(String groupId, boolean tcps);
 
     void freeAll();
 
-    void freeAllExcept(Set<Integer> ports);
+    void freeAllExcept(String groupId, Set<Integer> ports);
 
-    Set<Integer> getAllocatedPorts();
+    Map<String, Set<Integer>> getAllocatedPorts();
 
-    void setAllocatedPorts(Set<Integer> allocatedPorts);
+    void setAllocatedPorts(Map<String, Set<Integer>> allocatedPorts);
 
 }

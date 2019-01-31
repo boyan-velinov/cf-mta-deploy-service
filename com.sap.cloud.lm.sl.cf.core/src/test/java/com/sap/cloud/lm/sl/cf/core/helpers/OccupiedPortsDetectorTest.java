@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
+import java.util.Set;
 
 import org.cloudfoundry.client.lib.domain.CloudApplication;
 import org.junit.Before;
@@ -20,11 +20,11 @@ import com.sap.cloud.lm.sl.common.util.TestUtil;
 public class OccupiedPortsDetectorTest {
 
     private final String applicationJsonLocation;
-    private final List<Integer> expectedPorts;
+    private final Set<Integer> expectedPorts;
 
     private CloudApplication application;
 
-    public OccupiedPortsDetectorTest(String applicationJsonLocation, List<Integer> expectedPorts) {
+    public OccupiedPortsDetectorTest(String applicationJsonLocation, Set<Integer> expectedPorts) {
         this.applicationJsonLocation = applicationJsonLocation;
         this.expectedPorts = expectedPorts;
     }
@@ -70,7 +70,7 @@ public class OccupiedPortsDetectorTest {
     @Test
     public void testGetOccupiedPorts() {
         OccupiedPortsDetector occupiedPortsDetector = new OccupiedPortsDetector();
-        List<Integer> actualPorts = occupiedPortsDetector.detectOccupiedPorts(application);
+        Set<Integer> actualPorts = occupiedPortsDetector.detectOccupiedPorts(application.getUris());
         assertEquals(expectedPorts, actualPorts);
     }
 

@@ -71,7 +71,7 @@ public class UnregisterServiceUrlsStepTest extends SyncFlowableStepTest<Unregist
 
     private void prepareContext() {
         StepsUtil.setAppsToUndeploy(context, toCloudApplications(input.apps));
-        StepsUtil.setServiceUrlsToRegister(context, input.serviceUrlsToRegister);
+//        StepsUtil.setServiceUrlsToRegister(context, input.serviceUrlsToRegister);
     }
 
     private List<CloudApplication> toCloudApplications(List<SimpleApplication> apps) {

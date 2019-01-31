@@ -199,7 +199,7 @@ public class SystemParametersBuilder {
 
         int defaultPort = getDefaultPort(module.getName(), moduleParameters);
         if (shouldReserveTemporaryRoutes()) {
-            int idlePort = allocatePort(moduleParameters);
+            int idlePort = allocatePort(module.getName(), moduleParameters);
             moduleSystemParameters.put(SupportedParameters.DEFAULT_IDLE_PORT, idlePort);
             moduleSystemParameters.put(SupportedParameters.IDLE_PORT, idlePort);
             moduleSystemParameters.put(SupportedParameters.DEFAULT_IDLE_URI,
@@ -247,10 +247,10 @@ public class SystemParametersBuilder {
             }
         }
 
-        return allocatePort(moduleParameters);
+        return allocatePort(moduleName, moduleParameters);
     }
 
-    private int allocatePort(Map<String, Object> moduleParameters) {
+    private int allocatePort(String moduleName, Map<String, Object> moduleParameters) {
         boolean isTcpRoute = getBooleanParameter(moduleParameters, SupportedParameters.TCP);
         boolean isTcpsRoute = getBooleanParameter(moduleParameters, SupportedParameters.TCPS);
         if (isTcpRoute && isTcpsRoute) {
@@ -258,9 +258,9 @@ public class SystemParametersBuilder {
         }
 
         if (isTcpRoute || isTcpsRoute) {
-            return portAllocator.allocateTcpPort(isTcpsRoute);
+            return portAllocator.allocateTcpPort(moduleName, isTcpsRoute);
         } else {
-            return portAllocator.allocatePort();
+            return portAllocator.allocatePort(moduleName);
         }
     }
 

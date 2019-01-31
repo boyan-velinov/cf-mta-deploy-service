@@ -35,10 +35,8 @@ public class DeleteIdleRoutesStep extends SyncFlowableStep {
             boolean portBasedRouting = (boolean) execution.getContext()
                 .getVariable(Constants.VAR_PORT_BASED_ROUTING);
 
-            List<CloudApplicationExtended> apps = StepsUtil.getAppsToDeploy(execution.getContext());
-            for (CloudApplicationExtended app : apps) {
-                deleteIdleRoutes(app, portBasedRouting, client);
-            }
+            CloudApplicationExtended app = StepsUtil.getApp(execution.getContext());
+            deleteIdleRoutes(app, portBasedRouting, client);
 
             getStepLogger().debug(Messages.IDLE_URIS_DELETED);
             return StepPhase.DONE;

@@ -634,10 +634,11 @@ public class CloudModelBuilderTest {
 
     @Test
     public void testGetApplications() {
-        TestUtil.test(new Callable<List<CloudApplicationExtended>>() {
+        TestUtil.test(new Callable<CloudApplicationExtended>() {
             @Override
-            public List<CloudApplicationExtended> call() throws Exception {
-                return appsBuilder.build(modulesCalculator.calculateContentForBuilding(deploymentDescriptor.getModules2()),
+            public CloudApplicationExtended call() throws Exception {
+                //TODO check only one app
+                return appsBuilder.build(modulesCalculator.calculateContentForBuilding(deploymentDescriptor.getModules2()).get(0),
                     new ModuleToDeployHelper());
             }
         }, expectedApps, getClass(), new TestUtil.JsonSerializationOptions(false, true));

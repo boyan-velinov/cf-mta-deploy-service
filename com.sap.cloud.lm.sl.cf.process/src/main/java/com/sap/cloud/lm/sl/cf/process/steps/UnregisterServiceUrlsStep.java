@@ -1,6 +1,7 @@
 package com.sap.cloud.lm.sl.cf.process.steps;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 import org.cloudfoundry.client.lib.CloudControllerException;
@@ -18,6 +19,7 @@ import com.sap.cloud.lm.sl.cf.core.model.SupportedParameters;
 import com.sap.cloud.lm.sl.cf.process.Constants;
 import com.sap.cloud.lm.sl.cf.process.message.Messages;
 import com.sap.cloud.lm.sl.common.SLException;
+import com.sap.cloud.lm.sl.mta.model.v2.Module;
 
 @Component("unregisterServiceUrlsStep")
 @Scope(BeanDefinition.SCOPE_PROTOTYPE)
@@ -33,7 +35,8 @@ public class UnregisterServiceUrlsStep extends SyncFlowableStep {
                 getStepLogger().debug(Messages.CLIENT_EXTENSIONS_ARE_NOT_SUPPORTED);
                 return StepPhase.DONE;
             }
-            List<String> serviceUrlToRegisterNames = getServiceNames(StepsUtil.getServiceUrlsToRegister(execution.getContext()));
+
+            List<String> serviceUrlToRegisterNames = getRegisteredServiceUrlsNames(execution.getContext());
 
             for (CloudApplication app : StepsUtil.getAppsToUndeploy(execution.getContext())) {
                 unregisterServiceUrlIfNecessary(execution.getContext(), app, serviceUrlToRegisterNames, xsClient);
@@ -51,10 +54,14 @@ public class UnregisterServiceUrlsStep extends SyncFlowableStep {
         }
     }
 
-    private List<String> getServiceNames(List<ServiceUrl> serviceUrls) {
-        return serviceUrls.stream()
+    private List<String> getRegisteredServiceUrlsNames(DelegateExecution context) {
+        List<Module> allModulesToDeploy = StepsUtil.getAllModulesToDeploy(context);
+        return allModulesToDeploy.stream()
+            .map(module -> StepsUtil.getServiceUrlToRegisterForModule(context, module.getName()))
+            .filter(Objects::nonNull)
             .map(ServiceUrl::getServiceName)
             .collect(Collectors.toList());
+
     }
 
     private void unregisterServiceUrlIfNecessary(DelegateExecution context, CloudApplication app, List<String> serviceUrlsToRegister,

@@ -41,8 +41,9 @@ public class PrepareToUndeployStep extends SyncFlowableStep {
             StepsUtil.setMtaModules(execution.getContext(), getMtaModules(execution.getContext()));
             StepsUtil.setServiceBrokersToCreate(execution.getContext(), Collections.emptyList());
             StepsUtil.setPublishedEntries(execution.getContext(), Collections.emptyList());
-            StepsUtil.setAppsToDeploy(execution.getContext(), Collections.emptyList());
-            StepsUtil.setServiceUrlsToRegister(execution.getContext(), Collections.emptyList());
+            StepsUtil.setModulesToDeploy(execution.getContext(), Collections.emptyList());
+            StepsUtil.setAllModulesToDeploy(execution.getContext(), Collections.emptyList());
+//            StepsUtil.setServiceUrlsToRegister(execution.getContext(), Collections.emptyList());
             StepsUtil.setSubscriptionsToCreate(execution.getContext(), Collections.emptyList());
 
             conflictPreventerSupplier.apply(operationDao)

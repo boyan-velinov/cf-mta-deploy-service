@@ -223,8 +223,7 @@ public class UpdateSubscribersStep extends SyncFlowableStep {
         Module module = dummyDescriptor.getModules2()
             .get(0);
 
-        CloudApplicationExtended application = appsCloudModelBuilder.build(Arrays.asList(module), moduleToDeployHelper)
-            .get(0);
+        CloudApplicationExtended application = appsCloudModelBuilder.build(module, moduleToDeployHelper);
         CloudApplication existingApplication = client.getApplication(subscription.getAppName());
 
         Map<String, String> updatedEnvironment = application.getEnvAsMap();

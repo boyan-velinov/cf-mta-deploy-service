@@ -8,9 +8,9 @@ import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-import com.sap.cloud.lm.sl.cf.core.model.ModuleToDeploy;
 import com.sap.cloud.lm.sl.cf.core.security.serialization.SecureSerializationFacade;
 import com.sap.cloud.lm.sl.cf.process.message.Messages;
+import com.sap.cloud.lm.sl.mta.model.v2.Module;
 
 @Component("computeNextModulesStep")
 @Scope(BeanDefinition.SCOPE_PROTOTYPE)
@@ -21,14 +21,14 @@ public class ComputeNextModulesStep extends SyncFlowableStep {
     @Override
     protected StepPhase executeStep(ExecutionWrapper execution) throws Exception {
         getStepLogger().debug(Messages.COMPUTING_NEXT_MODULES_FOR_PARALLEL_ITERATION);
-        List<ModuleToDeploy> allModulesToDeploy = StepsUtil.getModulesToDeploy(execution.getContext());
-        List<ModuleToDeploy> completedApplications = StepsUtil.getIteratedModulesInParallel(execution.getContext());
+        List<? extends Module> allModulesToDeploy = StepsUtil.getModulesToDeploy(execution.getContext());
+        List<? extends Module> completedApplications = StepsUtil.getIteratedModulesInParallel(execution.getContext());
         List<String> completedModuleNames = completedApplications.stream()
-            .map(ModuleToDeploy::getName)
+            .map(Module::getName)
             .collect(Collectors.toList());
 
         // Set next iteration data
-        List<ModuleToDeploy> modulesForNextIteration = computeApplicationsForNextIteration(allModulesToDeploy,
+        List<Module> modulesForNextIteration = computeApplicationsForNextIteration(allModulesToDeploy,
             completedModuleNames);
         StepsUtil.setModulesToIterateInParallel(execution.getContext(), modulesForNextIteration);
 
@@ -39,7 +39,7 @@ public class ComputeNextModulesStep extends SyncFlowableStep {
         return StepPhase.DONE;
     }
 
-    private List<ModuleToDeploy> computeApplicationsForNextIteration(List<ModuleToDeploy> allModulesToDeploy,
+    private List<Module> computeApplicationsForNextIteration(List<? extends Module> allModulesToDeploy,
         List<String> completedModules) {
         allModulesToDeploy.removeIf(module -> completedModules.contains(module.getName()));
         return allModulesToDeploy.stream()
@@ -47,9 +47,13 @@ public class ComputeNextModulesStep extends SyncFlowableStep {
             .collect(Collectors.toList());
     }
 
-    private boolean applicationHasAllDependenciesSatisfied(List<String> completedModules, ModuleToDeploy app) {
-        return app.getDeployedAfter()
-            .isEmpty() || completedModules.containsAll(app.getDeployedAfter());
+    private boolean applicationHasAllDependenciesSatisfied(List<String> completedModules, Module module) {
+        if (!(module instanceof com.sap.cloud.lm.sl.mta.model.v3.Module)) {
+            return true;
+        }
+        com.sap.cloud.lm.sl.mta.model.v3.Module upcastedModule = (com.sap.cloud.lm.sl.mta.model.v3.Module) module;
+        return upcastedModule.getDeployedAfter()
+            .isEmpty() || completedModules.containsAll(upcastedModule.getDeployedAfter());
     }
 
 }

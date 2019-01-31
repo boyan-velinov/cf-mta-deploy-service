@@ -112,7 +112,7 @@ public class DeleteUnusedReservedRoutesStepTest extends SyncFlowableStepTest<Del
         StepsUtil.setXsPlaceholderReplacementValues(context, getReplacementValues());
 
         context.setVariable(Constants.VAR_PORT_BASED_ROUTING, input.portBasedRouting);
-        StepsUtil.setAllocatedPorts(context, input.allocatedPorts);
+//        StepsUtil.setAllocatedPorts(context, input.allocatedPorts);
         StepsUtil.setAppsToDeploy(context, appsToDeploy);
     }
 

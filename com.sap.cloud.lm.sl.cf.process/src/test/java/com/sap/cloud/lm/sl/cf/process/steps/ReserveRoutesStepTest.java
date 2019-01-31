@@ -52,7 +52,7 @@ public class ReserveRoutesStepTest extends SyncFlowableStepTest<ReserveRoutesSte
 
     private void prepareContext() {
         context.setVariable(Constants.VAR_PORT_BASED_ROUTING, true);
-        StepsUtil.setAllocatedPorts(context, stepInput.allocatedPorts);
+//        StepsUtil.setAllocatedPorts(context, stepInput.allocatedPorts);
         CloudApplicationExtended app = new CloudApplicationExtended(null, "appName");
         app.setApplicationPorts(stepInput.applicationPorts);
         app.setDomains(stepInput.domains);

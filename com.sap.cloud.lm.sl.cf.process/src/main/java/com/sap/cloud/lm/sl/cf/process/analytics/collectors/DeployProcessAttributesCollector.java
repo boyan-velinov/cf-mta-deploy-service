@@ -44,14 +44,14 @@ public class DeployProcessAttributesCollector extends AbstractCommonProcessAttri
             getAttribute(context, Constants.VAR_CUSTOM_DOMAINS, () -> StepsUtil.getCustomDomains(context).size()));
         deployProcessAttributes.setServicesToCreate(
             getAttribute(context, Constants.VAR_SERVICES_TO_CREATE, () -> StepsUtil.getServicesToCreate(context).size()));
-        deployProcessAttributes.setAppsToDeploy(
-            getAttribute(context, Constants.VAR_APPS_TO_DEPLOY, () -> StepsUtil.getAppsToDeploy(context).size()));
+//        deployProcessAttributes.setAppsToDeploy(
+//            getAttribute(context, Constants.VAR_APPS_TO_DEPLOY, () -> StepsUtil.getAppsToDeploy(context).size()));
         deployProcessAttributes.setPublishedEntries(
             getAttribute(context, Constants.VAR_PUBLISHED_ENTRIES, () -> StepsUtil.getPublishedEntries(context).size()));
         deployProcessAttributes.setSubscriptionsToCreate(
             getAttribute(context, Constants.VAR_SUBSCRIPTIONS_TO_CREATE, () -> StepsUtil.getSubscriptionsToCreate(context).size()));
-        deployProcessAttributes.setServiceUrlsToRegister(
-            getAttribute(context, Constants.VAR_SERVICE_URLS_TO_REGISTER, () -> StepsUtil.getServiceUrlsToRegister(context).size()));
+//        deployProcessAttributes.setServiceUrlsToRegister(
+//            getAttribute(context, Constants.VAR_SERVICE_URLS_TO_REGISTER, () -> StepsUtil.getServiceUrlsToRegister(context).size()));
         deployProcessAttributes.setServiceBrokersToCreate(
             getAttribute(context, Constants.VAR_SERVICE_BROKERS_TO_CREATE, () -> StepsUtil.getServiceBrokersToCreate(context).size()));
         deployProcessAttributes.setTriggeredServiceOperations(
