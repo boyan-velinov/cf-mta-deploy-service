@@ -73,7 +73,7 @@ public class PollStartAppStatusExecution implements AsyncExecution {
 
     protected void onError(ExecutionWrapper execution, String message) {
         execution.getStepLogger()
-            .error(message);
+            .errorWithoutProgressMessage(message);
     }
 
     protected CloudApplication getAppToPoll(DelegateExecution context) {

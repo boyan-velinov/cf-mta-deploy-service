@@ -1,0 +1,768 @@
+#2.0#2019 06 07 14:58:26.974#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Apr 22 02:43:27 UTC 49433851] Cell c01075a3-0bc8-434b-bd6a-9009f28cc0a2 successfully destroyed container for instance c466fcba-c732-4da2-aac7-9f915535202c (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.974#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Fri Apr 11 04:24:22 UTC 49433851] Cell c01075a3-0bc8-434b-bd6a-9009f28cc0a2 destroying container for instance c466fcba-c732-4da2-aac7-9f915535202c (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.974#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Fri Apr 11 04:23:44 UTC 49433851] Cell c01075a3-0bc8-434b-bd6a-9009f28cc0a2 stopping instance c466fcba-c732-4da2-aac7-9f915535202c (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat Apr 05 17:52:24 UTC 49433851] Exit status 223 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat Apr 05 12:24:20 UTC 49433851] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+
+#2.0#2019 06 07 14:58:26.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 02 07:14:55 UTC 49433851]        [31;1m**ERROR**[0m Unable to install node: no match found for ^6.0.0 in [8.15.1 8.16.0 10.15.2 10.15.3 11.13.0 11.14.0] (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.975#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 02 07:12:53 UTC 49433851]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 02 07:12:40 UTC 49433851]        engines.node (package.json): ^6.0.0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 02 07:11:12 UTC 49433851] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sun Mar 30 00:31:02 UTC 49433851] -----> Nodejs Buildpack version 1.6.49 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Mar 17 12:46:28 UTC 49433851] Downloaded app package (24.6M) (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sun Mar 02 19:31:34 UTC 49433851] Downloading app package... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.976#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Fri Feb 28 13:06:48 UTC 49433851] Cell c01075a3-0bc8-434b-bd6a-9009f28cc0a2 successfully created container for instance c466fcba-c732-4da2-aac7-9f915535202c (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.977#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 22:04:32 UTC 49433851] Cell c01075a3-0bc8-434b-bd6a-9009f28cc0a2 creating container for instance c466fcba-c732-4da2-aac7-9f915535202c (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.977#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 22:03:39 UTC 49433851] Downloaded dotnet_core_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.977#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 21:51:05 UTC 49433851] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.977#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 21:37:39 UTC 49433851] Downloaded sap_java_buildpack_1_9_1 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.977#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 21:34:09 UTC 49433851] Downloaded sap_java_buildpack_1_9_0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.977#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 20:50:00 UTC 49433851] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.977#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 14:37:30 UTC 49433851] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.978#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 14:37:07 UTC 49433851] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.978#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 12:01:46 UTC 49433851] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.978#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 12:01:18 UTC 49433851] Downloaded nginx_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.978#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 11:27:15 UTC 49433851] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.978#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 11:26:56 UTC 49433851] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.978#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 11:17:36 UTC 49433851] Downloading sap_java_buildpack_1_9_1... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.978#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 11:17:24 UTC 49433851] Downloading sap_java_buildpack_1_9_0... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.979#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 11:17:17 UTC 49433851] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.979#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 11:17:03 UTC 49433851] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.979#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 05:50:01 UTC 49433851] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.979#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Feb 20 00:17:07 UTC 49433851] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.979#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 23:28:35 UTC 49433851] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.979#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 23:28:12 UTC 49433851] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.980#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 23:23:54 UTC 49433851] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.980#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 23:23:30 UTC 49433851] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.980#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 23:23:23 UTC 49433851] Downloaded sap_java_buildpack_1_10_0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.980#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 23:22:58 UTC 49433851] Downloaded ruby_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.980#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 22:39:40 UTC 49433851] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.981#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 22:39:20 UTC 49433851] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.981#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 12:48:48 UTC 49433851] Downloading sap_java_buildpack_1_10_0... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.981#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 12:48:29 UTC 49433851] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.981#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 12:47:49 UTC 49433851] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.982#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 12:47:35 UTC 49433851] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.982#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Feb 19 12:47:09 UTC 49433851] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.982#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jan 15 14:04:57 UTC 49433851] Creating build for app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:26.982#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Jun 03 13:35:41 UTC 49433850] Uploading app package for app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:26.982#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Dec 10 18:46:48 UTC 49433849] Updated app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:26.983#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat Nov 06 16:16:57 UTC 49433802] Cell c3afd5a3-2b61-4f2b-9062-ebaa88eea095 successfully destroyed container for instance 116badde-45e9-4db9-81f8-023f7f438583 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.983#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Oct 26 08:06:14 UTC 49433802] Cell c3afd5a3-2b61-4f2b-9062-ebaa88eea095 destroying container for instance 116badde-45e9-4db9-81f8-023f7f438583 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.983#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Oct 26 08:05:38 UTC 49433802] Cell c3afd5a3-2b61-4f2b-9062-ebaa88eea095 stopping instance 116badde-45e9-4db9-81f8-023f7f438583 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.983#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Fri Oct 22 22:44:23 UTC 49433802] Exit status 223 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.983#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Fri Oct 22 17:37:43 UTC 49433802] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+
+#2.0#2019 06 07 14:58:26.983#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Oct 19 13:40:32 UTC 49433802]        [31;1m**ERROR**[0m Unable to install node: no match found for ^6.0.0 in [8.15.1 8.16.0 10.15.2 10.15.3 11.13.0 11.14.0] (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.983#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Oct 19 13:38:12 UTC 49433802]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.984#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Oct 19 13:38:00 UTC 49433802]        engines.node (package.json): ^6.0.0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.984#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Oct 19 13:36:52 UTC 49433802] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.984#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat Oct 16 08:59:58 UTC 49433802] -----> Nodejs Buildpack version 1.6.49 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.984#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Oct 04 00:09:51 UTC 49433802] Downloaded app package (24.6M) (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.984#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sun Sep 19 13:43:41 UTC 49433802] Downloading app package... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.985#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Sep 16 01:55:23 UTC 49433802] Cell c3afd5a3-2b61-4f2b-9062-ebaa88eea095 successfully created container for instance 116badde-45e9-4db9-81f8-023f7f438583 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.985#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Sep 07 14:00:54 UTC 49433802] Cell c3afd5a3-2b61-4f2b-9062-ebaa88eea095 creating container for instance 116badde-45e9-4db9-81f8-023f7f438583 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.985#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Sep 07 14:00:02 UTC 49433802] Downloaded nginx_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.985#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Sep 07 13:49:04 UTC 49433802] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.985#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Sep 07 13:47:09 UTC 49433802] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.986#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Sep 07 13:21:47 UTC 49433802] Downloaded sap_java_buildpack_1_10_0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.986#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Sep 07 10:25:21 UTC 49433802] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.986#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Sep 07 04:56:55 UTC 49433802] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.986#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Sep 07 04:07:46 UTC 49433802] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.986#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Sep 07 04:07:26 UTC 49433802] Downloaded sap_java_buildpack_1_9_1 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.987#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Sep 07 00:48:24 UTC 49433802] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.987#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Sep 07 00:47:52 UTC 49433802] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.987#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 23:38:22 UTC 49433802] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.987#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 21:24:27 UTC 49433802] Downloading sap_java_buildpack_1_10_0... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.987#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 21:23:53 UTC 49433802] Downloaded dotnet_core_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.988#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 20:23:04 UTC 49433802] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.988#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 20:22:42 UTC 49433802] Downloaded sap_java_buildpack_1_9_0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.988#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 14:09:06 UTC 49433802] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.988#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 14:08:21 UTC 49433802] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.988#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 13:41:50 UTC 49433802] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.988#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 13:41:26 UTC 49433802] Downloaded ruby_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.989#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 13:36:38 UTC 49433802] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.989#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 13:36:16 UTC 49433802] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.989#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 13:08:53 UTC 49433802] Downloading sap_java_buildpack_1_9_0... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.989#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 13:07:59 UTC 49433802] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.989#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 12:57:11 UTC 49433802] Downloading sap_java_buildpack_1_9_1... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.989#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 12:56:51 UTC 49433802] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.989#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 02:37:23 UTC 49433802] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.990#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 02:37:10 UTC 49433802] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.990#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 02:36:47 UTC 49433802] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.990#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 02:36:24 UTC 49433802] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.990#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Sep 06 02:36:03 UTC 49433802] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.990#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Aug 18 22:07:13 UTC 49433802] Creating build for app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:26.990#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Dec 24 20:20:15 UTC 49433801] Uploading app package for app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:26.990#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Fri Jul 03 13:48:22 UTC 49433801] Updated app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:26.990#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jun 25 07:48:21 UTC 49433647] Cell 73e1bc27-7f66-498b-8718-d001eb2e4a39 successfully destroyed container for instance c389384a-2d63-4804-90ba-44ef4ae57d66 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.990#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Jun 13 11:47:51 UTC 49433647] Cell 73e1bc27-7f66-498b-8718-d001eb2e4a39 destroying container for instance c389384a-2d63-4804-90ba-44ef4ae57d66 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.991#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Jun 13 11:47:11 UTC 49433647] Cell 73e1bc27-7f66-498b-8718-d001eb2e4a39 stopping instance c389384a-2d63-4804-90ba-44ef4ae57d66 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.991#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat Jun 08 16:57:20 UTC 49433647] Exit status 223 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.991#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat Jun 08 11:41:44 UTC 49433647] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+
+#2.0#2019 06 07 14:58:26.991#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jun 05 05:09:53 UTC 49433647]        [31;1m**ERROR**[0m Unable to install node: no match found for ^6.0.0 in [8.15.1 8.16.0 10.15.2 10.15.3 11.13.0 11.14.0] (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.991#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jun 05 05:07:52 UTC 49433647]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.991#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jun 05 05:07:40 UTC 49433647]        engines.node (package.json): ^6.0.0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.991#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jun 05 05:05:43 UTC 49433647] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.991#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat Jun 01 21:29:04 UTC 49433647] -----> Nodejs Buildpack version 1.6.49 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.992#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sun May 19 19:01:28 UTC 49433647] Downloaded app package (24.6M) (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.992#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat May 04 15:54:25 UTC 49433647] Downloading app package... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.992#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu May 02 02:13:11 UTC 49433647] Cell 73e1bc27-7f66-498b-8718-d001eb2e4a39 successfully created container for instance c389384a-2d63-4804-90ba-44ef4ae57d66 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.992#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Apr 25 13:28:25 UTC 49433647] Cell 73e1bc27-7f66-498b-8718-d001eb2e4a39 creating container for instance c389384a-2d63-4804-90ba-44ef4ae57d66 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.992#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Apr 25 13:27:27 UTC 49433647] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.992#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Apr 25 13:01:19 UTC 49433647] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.992#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Apr 25 12:14:31 UTC 49433647] Downloaded sap_java_buildpack_1_9_0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.992#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Apr 25 11:48:57 UTC 49433647] Downloaded dotnet_core_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.992#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Apr 25 10:32:04 UTC 49433647] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.993#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Apr 25 02:41:55 UTC 49433647] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.993#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Apr 25 02:41:17 UTC 49433647] Downloaded sap_java_buildpack_1_10_0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.993#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 23:00:06 UTC 49433647] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.993#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 21:52:13 UTC 49433647] Downloading sap_java_buildpack_1_9_0... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.993#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 21:51:47 UTC 49433647] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.993#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 17:47:34 UTC 49433647] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.993#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 17:47:03 UTC 49433647] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.993#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 17:19:37 UTC 49433647] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.993#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 16:25:02 UTC 49433647] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.994#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 16:24:35 UTC 49433647] Downloaded ruby_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.994#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 10:40:49 UTC 49433647] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.994#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 10:40:26 UTC 49433647] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.994#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 08:39:04 UTC 49433647] Downloading sap_java_buildpack_1_10_0... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.994#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 08:38:37 UTC 49433647] Downloaded sap_java_buildpack_1_9_1 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.995#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 08:35:41 UTC 49433647] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.995#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 08:35:05 UTC 49433647] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.995#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 06:38:48 UTC 49433647] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.995#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 06:38:15 UTC 49433647] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.995#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 05:57:36 UTC 49433647] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.996#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Apr 24 05:57:11 UTC 49433647] Downloaded nginx_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.996#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Apr 23 20:21:00 UTC 49433647] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.996#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Apr 23 20:20:23 UTC 49433647] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.996#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Apr 23 20:19:43 UTC 49433647] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.996#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Apr 23 20:19:24 UTC 49433647] Downloading sap_java_buildpack_1_9_1... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.996#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Apr 23 20:19:11 UTC 49433647] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.996#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Fri Apr 05 21:46:01 UTC 49433647] Creating build for app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:26.996#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat Aug 04 02:22:07 UTC 49433646] Uploading app package for app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:26.997#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jun 20 18:46:28 UTC 49433646] Updated app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:26.997#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Aug 28 00:13:49 UTC 49433642] Cell 41086ba5-4e69-4108-ab77-3fbfcd6bbac7 successfully destroyed container for instance a675a674-632b-44fe-8c93-369d6d9220d2 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.997#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat Aug 16 20:51:18 UTC 49433642] Cell 41086ba5-4e69-4108-ab77-3fbfcd6bbac7 destroying container for instance a675a674-632b-44fe-8c93-369d6d9220d2 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.997#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat Aug 16 20:50:41 UTC 49433642] Cell 41086ba5-4e69-4108-ab77-3fbfcd6bbac7 stopping instance a675a674-632b-44fe-8c93-369d6d9220d2 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.997#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Aug 14 22:09:13 UTC 49433642] Exit status 223 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.997#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Aug 14 16:56:47 UTC 49433642] Failed to compile droplet: Failed to run all supply scripts: exit status 14 (STDERR, STG)#
+
+#2.0#2019 06 07 14:58:26.997#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Aug 11 13:38:05 UTC 49433642]        [31;1m**ERROR**[0m Unable to install node: no match found for ^6.0.0 in [8.15.1 8.16.0 10.15.2 10.15.3 11.13.0 11.14.0] (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.997#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Aug 11 13:37:51 UTC 49433642]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.997#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Aug 11 13:37:39 UTC 49433642]        engines.node (package.json): ^6.0.0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.998#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Mon Aug 11 13:34:47 UTC 49433642] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.998#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Fri Aug 08 07:10:47 UTC 49433642] -----> Nodejs Buildpack version 1.6.49 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.998#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sun Jul 27 08:39:54 UTC 49433642] Downloaded app package (24.6M) (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.998#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sat Jul 12 04:35:40 UTC 49433642] Downloading app package... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.998#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 09 03:34:41 UTC 49433642] Cell 41086ba5-4e69-4108-ab77-3fbfcd6bbac7 successfully created container for instance a675a674-632b-44fe-8c93-369d6d9220d2 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.998#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 13:51:30 UTC 49433642] Cell 41086ba5-4e69-4108-ab77-3fbfcd6bbac7 creating container for instance a675a674-632b-44fe-8c93-369d6d9220d2 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.998#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 13:50:35 UTC 49433642] Downloaded ruby_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.998#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 13:46:59 UTC 49433642] Downloaded sap_java_buildpack_1_10_0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.998#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 13:22:24 UTC 49433642] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.999#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 12:57:46 UTC 49433642] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.999#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 12:21:50 UTC 49433642] Downloaded sap_java_buildpack_1_9_0 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.999#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 04:39:25 UTC 49433642] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.999#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 04:38:32 UTC 49433642] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.999#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 04:01:11 UTC 49433642] Downloading sap_java_buildpack_1_9_0... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.999#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 04:00:38 UTC 49433642] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.999#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 03:42:07 UTC 49433642] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:26.999#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 03:41:35 UTC 49433642] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.000#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 03:22:19 UTC 49433642] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.000#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 03:21:58 UTC 49433642] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.000#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 03:04:17 UTC 49433642] Downloading sap_java_buildpack_1_10_0... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.000#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Wed Jul 02 03:03:56 UTC 49433642] Downloaded nginx_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.000#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 17:31:07 UTC 49433642] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 17:30:46 UTC 49433642] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 17:29:38 UTC 49433642] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 17:29:08 UTC 49433642] Downloaded sap_java_buildpack_1_9_1 (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.001#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 17:00:52 UTC 49433642] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.002#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 17:00:32 UTC 49433642] Downloaded dotnet_core_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.002#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 16:30:40 UTC 49433642] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.002#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 16:30:20 UTC 49433642] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.002#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 16:26:36 UTC 49433642] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.002#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 16:24:05 UTC 49433642] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.003#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 08:53:30 UTC 49433642] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.003#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 02:10:18 UTC 49433642] Downloading sap_java_buildpack_1_9_1... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.003#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 02:09:18 UTC 49433642] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.003#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 02:08:48 UTC 49433642] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.004#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jul 01 02:08:41 UTC 49433642] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2019 06 07 14:58:27.004#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Jun 10 13:02:20 UTC 49433642] Creating build for app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:27.004#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Fri May 23 06:53:55 UTC 49433642] Updated app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 ({"instances"=>1}) (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:27.004#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sun Oct 13 09:33:16 UTC 49433641] Uploading app package for app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:27.004#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Thu Jul 18 15:15:54 UTC 49433641] Updated app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:27.005#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Sun Apr 28 13:06:58 UTC 49433641] Updated app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:27.005#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Feb 26 13:16:11 UTC 49433641] Updated app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 ({"route"=>"79ba0d63-54ef-4ba5-b780-0856bc9dbec9", :verb=>"add", :relation=>"routes", :related_guid=>"79ba0d63-54ef-4ba5-b780-0856bc9dbec9"}) (STDOUT, API)#
+
+#2.0#2019 06 07 14:58:27.005#Z#DEBUG#com.sap.cloud.lm.sl.xs2.15002.products-broker.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-6###
+[PollStageAppStatusExecution] [products-broker] ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 [Tue Feb 19 03:49:37 UTC 49433641] Created app with guid ecc9af8e-7cc8-40a9-8120-8ad63e2301c3 (STDOUT, API)#
+

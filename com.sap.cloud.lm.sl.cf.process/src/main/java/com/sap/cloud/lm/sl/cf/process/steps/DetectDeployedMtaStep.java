@@ -58,7 +58,7 @@ public class DetectDeployedMtaStep extends SyncFlowableStep {
             getStepLogger().error(e, Messages.ERROR_DETECTING_DEPLOYED_MTA);
             throw e;
         } catch (SLException e) {
-            getStepLogger().error(e, Messages.ERROR_DETECTING_DEPLOYED_MTA);
+            getStepLogger().errorWithoutProgressMessage(e, Messages.ERROR_DETECTING_DEPLOYED_MTA);
             throw e;
         }
     }

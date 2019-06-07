@@ -81,10 +81,10 @@ public class UploadAppStep extends TimeoutAsyncFlowableStep {
             StepsUtil.setUploadToken(uploadToken, execution.getContext());
         } catch (CloudOperationException coe) {
             CloudControllerException e = new CloudControllerException(coe);
-            getStepLogger().error(e, Messages.ERROR_UPLOADING_APP, app.getName());
+            getStepLogger().errorWithoutProgressMessage(e, Messages.ERROR_UPLOADING_APP, app.getName());
             throw e;
         } catch (SLException e) {
-            getStepLogger().error(e, Messages.ERROR_UPLOADING_APP, app.getName());
+            getStepLogger().errorWithoutProgressMessage(e, Messages.ERROR_UPLOADING_APP, app.getName());
             throw e;
         }
         return StepPhase.POLL;
@@ -230,7 +230,7 @@ public class UploadAppStep extends TimeoutAsyncFlowableStep {
 
         @Override
         public void onError(Exception e) {
-            getStepLogger().error(e, Messages.ERROR_UPLOADING_APP, app.getName());
+            getStepLogger().errorWithoutProgressMessage(e, Messages.ERROR_UPLOADING_APP, app.getName());
             cleanUp(file.toPath());
         }
 

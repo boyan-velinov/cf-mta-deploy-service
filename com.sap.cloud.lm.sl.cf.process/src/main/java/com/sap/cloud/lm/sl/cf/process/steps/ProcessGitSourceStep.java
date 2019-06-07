@@ -97,7 +97,7 @@ public class ProcessGitSourceStep extends SyncFlowableStep {
             }
             return StepPhase.DONE;
         } catch (SLException e) {
-            getStepLogger().error(e.getMessage());
+            getStepLogger().errorWithoutProgressMessage(e.getMessage());
             throw e;
         } catch (GitAPIException | IOException | FileStorageException e) {
             getStepLogger().error(e, Messages.ERROR_DOWNLOADING_DEPLOYABLE_FROM_GIT);
