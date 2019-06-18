@@ -11,6 +11,7 @@ import com.sap.cloud.lm.sl.cf.client.lib.domain.CloudApplicationExtended;
 import com.sap.cloud.lm.sl.cf.core.cf.clients.RecentLogsRetriever;
 import com.sap.cloud.lm.sl.cf.persistence.services.ProcessLoggerProvider;
 import com.sap.cloud.lm.sl.cf.process.message.Messages;
+import com.sap.cloud.lm.sl.common.SLException;
 
 public class PollExecuteTaskStatusExecution implements AsyncExecution {
 
@@ -31,12 +32,12 @@ public class PollExecuteTaskStatusExecution implements AsyncExecution {
     }
 
     @Override
-    public void onPollingError(ExecutionWrapper execution, Exception e) throws Exception {
+    public void onPollingError(ExecutionWrapper execution, Exception e) throws SLException {
         CloudApplicationExtended app = StepsUtil.getApp(execution.getContext());
         CloudTask task = StepsUtil.getStartedTask(execution.getContext());
-        execution.getStepLogger()
-            .error(e, Messages.ERROR_EXECUTING_TASK_ON_APP, task.getName(), app.getName());
-        throw e;
+//        execution.getStepLogger()
+//            .error(e, Messages.ERROR_EXECUTING_TASK_ON_APP, task.getName(), app.getName());
+        throw new SLException(e, Messages.ERROR_EXECUTING_TASK_ON_APP, task.getName(), app.getName());
     }
 
     public class PollExecuteTaskStatusDelegate {

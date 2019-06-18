@@ -7,6 +7,7 @@ import org.flowable.engine.delegate.DelegateExecution;
 
 import com.sap.cloud.lm.sl.cf.core.cf.clients.RecentLogsRetriever;
 import com.sap.cloud.lm.sl.cf.process.message.Messages;
+import com.sap.cloud.lm.sl.common.SLException;
 
 public class PollStartServiceBrokerSubscriberStatusExecution extends PollStartAppStatusExecution {
 
@@ -15,11 +16,11 @@ public class PollStartServiceBrokerSubscriberStatusExecution extends PollStartAp
     }
 
     @Override
-    public void onPollingError(ExecutionWrapper execution, Exception e) throws Exception {
+    public void onPollingError(ExecutionWrapper execution, Exception e) throws SLException {
         String appToPoll = getAppToPoll(execution.getContext()).getName();
-        execution.getStepLogger()
-            .warn(e, format(Messages.ERROR_STARTING_APP_1, appToPoll));
-        throw e;
+//        execution.getStepLogger()
+//            .warn(e, format(Messages.ERROR_STARTING_APP_1, appToPoll));
+        throw new SLException(e, format(Messages.ERROR_STARTING_APP_1, appToPoll));
     }
 
     @Override

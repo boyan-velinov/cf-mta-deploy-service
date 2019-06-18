@@ -62,10 +62,11 @@ public abstract class PollServiceOperationsExecution implements AsyncExecution {
     }
 
     @Override
-    public void onPollingError(ExecutionWrapper execution, Exception e) throws Exception {
-        execution.getStepLogger()
-            .error(e, Messages.ERROR_MONITORING_CREATION_OF_SERVICES);
-        throw e;
+    public void onPollingError(ExecutionWrapper execution, Exception e) throws SLException {
+//        execution.getStepLogger()
+//            .error(e, Messages.ERROR_MONITORING_CREATION_OF_SERVICES);
+//        throw e;
+        throw new SLException(e, Messages.ERROR_MONITORING_CREATION_OF_SERVICES);
     }
 
     protected List<CloudServiceExtended> getServiceOperationsToPoll(ExecutionWrapper execution,

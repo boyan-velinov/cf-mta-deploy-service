@@ -16,10 +16,10 @@ import org.slf4j.MDC;
 import com.sap.cloud.lm.sl.cf.core.Constants;
 import com.sap.cloud.lm.sl.cf.core.cf.CloudControllerClientProvider;
 import com.sap.cloud.lm.sl.cf.persistence.services.FileService;
-import com.sap.cloud.lm.sl.cf.persistence.services.FileStorageException;
 import com.sap.cloud.lm.sl.cf.persistence.services.ProcessLoggerProvider;
 import com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogsPersister;
 import com.sap.cloud.lm.sl.cf.persistence.services.ProgressMessageService;
+import com.sap.cloud.lm.sl.cf.process.exception.MonitoringException;
 import com.sap.cloud.lm.sl.cf.process.message.Messages;
 import com.sap.cloud.lm.sl.cf.process.util.StepLogger;
 import com.sap.cloud.lm.sl.common.SLException;
@@ -56,9 +56,10 @@ public abstract class SyncFlowableStep implements JavaDelegate {
             getStepHelper().preExecuteStep(context, stepPhase);
             stepPhase = executeStep(executionWrapper);
             if (stepPhase == StepPhase.RETRY) {
-                throw new SLException("A step of the process has failed. Retrying it may solve the issue.");
+                throw new MonitoringException("A step of the process has failed. Retrying it may solve the issue.");
             }
             getStepHelper().failStepIfProcessIsAborted(context);
+
         } catch (Exception e) {
             stepPhase = StepPhase.RETRY;
             handleException(executionWrapper, e);
@@ -80,6 +81,12 @@ public abstract class SyncFlowableStep implements JavaDelegate {
         try {
             e = preprocessException(e);
             onError(execution, e);
+        } catch (MonitoringException monex) {
+            getStepLogger().error(monex.getMessage());
+            throw monex;
+        } catch (SLException slex) {
+            getStepLogger().error(e, slex.getMessage());
+            throw slex;
         } catch (Exception ex) {
             ex = getWithProperMessage(ex);
             getStepHelper().logException(execution.getContext(), ex);
@@ -95,7 +102,6 @@ public abstract class SyncFlowableStep implements JavaDelegate {
             throw e;
         }
     }
-    
 
     protected void onError(ExecutionWrapper execution, Exception e) throws Exception {
         onStepError(execution.getContext(), e);
@@ -104,8 +110,6 @@ public abstract class SyncFlowableStep implements JavaDelegate {
     private Exception preprocessException(Exception e) {
         if (e instanceof CloudOperationException && !(e instanceof CloudServiceBrokerException)) {
             e = new CloudControllerException((CloudOperationException) e);
-        } else if (e instanceof FileStorageException) {
-            e = new SLException(e, e.getMessage());
         }
         return e;
     }

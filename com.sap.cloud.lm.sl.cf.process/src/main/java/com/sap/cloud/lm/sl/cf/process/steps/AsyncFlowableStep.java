@@ -5,6 +5,7 @@ import java.util.List;
 import org.flowable.engine.delegate.DelegateExecution;
 
 import com.sap.cloud.lm.sl.cf.process.Constants;
+import com.sap.cloud.lm.sl.cf.process.exception.MonitoringException;
 
 public abstract class AsyncFlowableStep extends SyncFlowableStep {
 
@@ -25,6 +26,9 @@ public abstract class AsyncFlowableStep extends SyncFlowableStep {
     protected void onError(ExecutionWrapper execution, Exception e) throws Exception {
         StepPhase stepPhase = StepsUtil.getStepPhase(execution.getContext());
         if (stepPhase == StepPhase.POLL) {
+            if (e instanceof MonitoringException) {
+                throw e;
+            }
             onPollingError(execution, e);
         } else {
             onStepError(execution.getContext(), e);

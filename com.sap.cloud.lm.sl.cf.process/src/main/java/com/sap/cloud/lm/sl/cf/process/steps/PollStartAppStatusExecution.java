@@ -58,11 +58,11 @@ public class PollStartAppStatusExecution implements AsyncExecution {
     }
 
     @Override
-    public void onPollingError(ExecutionWrapper execution, Exception e) throws Exception {
+    public void onPollingError(ExecutionWrapper execution, Exception e) throws SLException {
         String appToPoll = getAppToPoll(execution.getContext()).getName();
-        execution.getStepLogger()
-            .error(e, format(Messages.ERROR_STARTING_APP_1, appToPoll));
-        throw e;
+//        execution.getStepLogger()
+//            .error(e, format(Messages.ERROR_STARTING_APP_1, appToPoll));
+        throw new SLException(e, format(Messages.ERROR_STARTING_APP_1, appToPoll));
     }
 
     protected void onError(ExecutionWrapper execution, String message) {

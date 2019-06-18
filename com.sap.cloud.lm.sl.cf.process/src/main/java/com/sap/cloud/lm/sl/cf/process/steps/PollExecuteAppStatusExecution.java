@@ -63,11 +63,11 @@ public class PollExecuteAppStatusExecution implements AsyncExecution {
     }
 
     @Override
-    public void onPollingError(ExecutionWrapper execution, Exception e) throws Exception {
+    public void onPollingError(ExecutionWrapper execution, Exception e) throws SLException {
         CloudApplication app = getNextApp(execution.getContext());
-        execution.getStepLogger()
-            .error(e, Messages.ERROR_EXECUTING_APP_1, app.getName());
-        throw e;
+//        execution.getStepLogger()
+//            .error(e, Messages.ERROR_EXECUTING_APP_1, app.getName());
+        throw new SLException(e, Messages.ERROR_EXECUTING_APP_1, app.getName());
     }
 
     protected CloudApplication getNextApp(DelegateExecution context) {

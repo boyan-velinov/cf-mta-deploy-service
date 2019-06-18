@@ -17,6 +17,7 @@ import com.sap.cloud.lm.sl.cf.process.message.Messages;
 import com.sap.cloud.lm.sl.cf.process.util.ApplicationStager;
 import com.sap.cloud.lm.sl.cf.process.util.StagingState;
 import com.sap.cloud.lm.sl.cf.process.util.StagingState.StagingLogs;
+import com.sap.cloud.lm.sl.common.SLException;
 import com.sap.cloud.lm.sl.cf.process.util.XMLValueFilter;
 
 public class PollStageAppStatusExecution implements AsyncExecution {
@@ -66,11 +67,11 @@ public class PollStageAppStatusExecution implements AsyncExecution {
     }
 
     @Override
-    public void onPollingError(ExecutionWrapper execution, Exception e) throws Exception {
+    public void onPollingError(ExecutionWrapper execution, Exception e) throws SLException {
         CloudApplication app = StepsUtil.getApp(execution.getContext());
-        execution.getStepLogger()
-            .error(e, Messages.ERROR_STAGING_APP_1, app.getName());
-        throw e;
+//        execution.getStepLogger()
+//            .error(e, Messages.ERROR_STAGING_APP_1, app.getName());
+        throw new SLException(e, Messages.ERROR_STAGING_APP_1, app.getName());
     }
 
     private AsyncExecutionState checkStagingState(ExecutionWrapper execution, CloudApplication app, StagingState state) {

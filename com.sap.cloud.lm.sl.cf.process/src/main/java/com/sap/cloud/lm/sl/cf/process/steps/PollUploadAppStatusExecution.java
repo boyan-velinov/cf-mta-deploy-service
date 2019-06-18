@@ -8,6 +8,7 @@ import org.cloudfoundry.client.lib.domain.Upload;
 import org.cloudfoundry.client.lib.domain.UploadToken;
 
 import com.sap.cloud.lm.sl.cf.process.message.Messages;
+import com.sap.cloud.lm.sl.common.SLException;
 
 public class PollUploadAppStatusExecution implements AsyncExecution {
 
@@ -45,11 +46,12 @@ public class PollUploadAppStatusExecution implements AsyncExecution {
     }
 
     @Override
-    public void onPollingError(ExecutionWrapper execution, Exception e) throws Exception {
-        execution.getStepLogger()
-            .error(e, Messages.ERROR_CHECKING_UPLOAD_APP_STATUS, StepsUtil.getApp(execution.getContext())
-                .getName());
-        throw e;
+    public void onPollingError(ExecutionWrapper execution, Exception e) throws SLException {
+//        execution.getStepLogger()
+//            .error(e, Messages.ERROR_CHECKING_UPLOAD_APP_STATUS, StepsUtil.getApp(execution.getContext())
+//                .getName());
+        throw new SLException(e, Messages.ERROR_CHECKING_UPLOAD_APP_STATUS, StepsUtil.getApp(execution.getContext())
+            .getName());
     }
 
 }
