@@ -16,6 +16,7 @@ import org.flowable.common.engine.api.FlowableOptimisticLockingException;
 import org.flowable.engine.ProcessEngine;
 import org.flowable.engine.history.HistoricActivityInstance;
 import org.flowable.engine.history.HistoricProcessInstance;
+import org.flowable.engine.impl.persistence.entity.ExecutionEntityImpl;
 import org.flowable.engine.runtime.Execution;
 import org.flowable.engine.runtime.ProcessInstance;
 import org.flowable.job.api.Job;
@@ -128,8 +129,13 @@ public class FlowableFacade {
                             .processInstanceId(processId)
                             .list()
                             .stream()
-                            .map(Job::getId)
+                            .map(job -> logAndgetDeadLetterJobId(processId, job))
                             .collect(Collectors.toSet());
+    }
+
+    private String logAndgetDeadLetterJobId(String processId, Job job) {
+        LOGGER.info("Deadletter job for " + processId + " is: " + job);
+        return job.getId();
     }
 
     private List<Job> getDeadLetterJobsForExecution(Execution execution) {
@@ -264,39 +270,67 @@ public class FlowableFacade {
     private boolean readyForDeletion(String processId) {
         ProcessInstance processInstance = getProcessInstance(processId);
         if (processInstance == null) {
-            LOGGER.debug(format(Messages.PROCESS_HAS_STATE, processId, Operation.State.getFinalStates()));
+            LOGGER.info(format(Messages.PROCESS_HAS_STATE, processId, Operation.State.getFinalStates()));
             return false;
         }
         if (isProcessInstanceAtReceiveTask(processId)) {
-            LOGGER.debug(format(Messages.PROCESS_HAS_STATE, processId, Operation.State.ACTION_REQUIRED));
-            return false;
-        }
-        if (haveAllProcessesFailed(processId)) {
-            LOGGER.debug(format(Messages.PROCESS_AND_ALL_SUBPROCESSES_FAILED, processId));
+            LOGGER.info(format(Messages.PROCESS_HAS_STATE, processId, Operation.State.ACTION_REQUIRED));
             return true;
         }
-        LOGGER.debug(format(Messages.PROCESS_HAS_STATE, processId, Operation.State.RUNNING));
+        if (haveAllProcessesFailed(processId)) {
+            LOGGER.info(format(Messages.PROCESS_AND_ALL_SUBPROCESSES_FAILED, processId));
+            return true;
+        }
+        LOGGER.info(format(Messages.PROCESS_HAS_STATE, processId, Operation.State.RUNNING));
         return false;
     }
 
     private boolean haveAllProcessesFailed(String processId) {
-        Set<String> processIds = getAllProcessExecutions(processId).stream()
-                                                                   .map(Execution::getProcessInstanceId)
-                                                                   .collect(Collectors.toSet());
-        Set<String> deadLetterJobIds = new HashSet<>();
-        for (String id : processIds) {
-            deadLetterJobIds.addAll(getDeadLetterJobsIdsForProcess(id));
+        List<ExecutionEntityImpl> processIds = getAllProcessExecutions(processId).stream()
+                                                                                 .map(e -> logAndGetExecutionEntityImpl(processId, e))
+                                                                                 .filter(e -> (!e.isActive() && !e.isMultiInstanceRoot()
+                                                                                     && (e.getVariableCount() == 0)))
+                                                                                 .collect(Collectors.toList());
+        // LOGGER.info("All subprocesses for root process " + processId + " are: " + processIds);
+
+        for (ExecutionEntityImpl executionEntityImpl : processIds) {
+            if (executionEntityImpl.getDeadLetterJobCount() == 0) {
+                LOGGER.info(executionEntityImpl + " does not have deadletter jobs");
+                return false;
+            }
         }
+        return true;
+        // Set<String> deadLetterJobIds = new HashSet<>();
+        // for (String id : processIds) {
+        // Set<String> jobs = getDeadLetterJobsIdsForProcess(id);
+        // LOGGER.info("All deadletter jobs for " + id + " are: " + jobs);
+        // deadLetterJobIds.addAll(jobs);
+        // }
+
+        // LOGGER.info("All deadletter jobs for " + processId + " and all its subprocesses are: " + deadLetterJobIds);
+
         // When root process is aborted, there is only one deadletter job for it
-        if (processIds.size() == 1) {
-            return deadLetterJobIds.size() == 1;
-        }
+        // if (processIds.size() == 1) {
+        // return deadLetterJobIds.size() == 1;
+        // }
 
         // When a subprocess (CallActivity) is aborted,
         // there are deadletter jobs for all executions except for the execution of the root process.
         // TODO This will not work when there are parallel executions running in the root process, not part of CallActivity (parallel
         // gateway)
-        return (processIds.size() - 1) == deadLetterJobIds.size();
+
+        // return (processIds.size() - 1) == deadLetterJobIds.size();
+    }
+
+    private ExecutionEntityImpl logAndGetExecutionEntityImpl(String processId, Execution e) {
+        LOGGER.info("Execution for " + processId + " is: " + e);
+        if (e instanceof ExecutionEntityImpl) {
+            ExecutionEntityImpl exec = (ExecutionEntityImpl) e;
+            LOGGER.info(exec + " is active: " + exec.isActive() + "; is MI root: " + exec.isMultiInstanceRoot()
+                + "; dead letter jobs count: " + exec.getDeadLetterJobCount() + "; variable count " + exec.getVariableCount());
+            return exec;
+        }
+        return null;
     }
 
     protected boolean isPastDeadline(long deadline) {
