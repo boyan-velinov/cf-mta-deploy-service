@@ -25,6 +25,7 @@ import org.cloudfoundry.multiapps.controller.process.util.ProcessTypeParser;
 import org.cloudfoundry.multiapps.controller.process.util.StepLogger;
 import org.cloudfoundry.multiapps.controller.process.variables.VariableHandling;
 import org.cloudfoundry.multiapps.controller.process.variables.Variables;
+import org.cloudfoundry.multiapps.controller.processes.metering.MicrometerProcessesMetricsRecorder;
 import org.flowable.engine.delegate.DelegateExecution;
 import org.junit.Rule;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -72,6 +73,8 @@ public class StartProcessListenerTest {
     private ProcessLogsPersister processLogsPersister = new ProcessLogsPersister();
     @Mock
     private ApplicationConfiguration configuration;
+    @Mock
+    private MicrometerProcessesMetricsRecorder micrometerNotifier;
     @Mock
     private HistoricOperationEventPersister historicOperationEventPersister;
 
